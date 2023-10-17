@@ -6,8 +6,6 @@
 
 body{
     background-color: rgb(238, 238, 238);
-    
-
 }
 
 .backwhite{
@@ -17,18 +15,12 @@ body{
 
 #logo{
   margin-left: 15px;
-  
-    
 }
 
-
 #title{
-    
     display: inline;
     font-size: 3em;
     vertical-align: top;
-    
-   
 }
 
 #box{
@@ -36,8 +28,6 @@ body{
     width: 750px;
     height: 600px;
     margin-top: 50px;
-    
-
 }
 
 #button{
@@ -63,4 +53,14 @@ body{
     opacity: 0.3;
 }
 
+li{
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: large;
+}
+
+#section{
+    display: list-item;
+    list-style-type: \25BC;
+}
 
