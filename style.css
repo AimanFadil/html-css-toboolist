@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(238, 238, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .backwhite{
@@ -25,8 +26,8 @@ body{
 
 #box{
     background-color: white;
-    width: 750px;
-    height: 600px;
+    width: 1000px;
+    height: 700px;
     margin-top: 50px;
 }
 
@@ -53,14 +54,89 @@ body{
     opacity: 0.3;
 }
 
+
 li{
     margin-top: 20px;
     margin-left: 45px;
     font-size: large;
 }
 
-#section{
-    display: list-item;
-    list-style-type: \25BC;
+.arrowgiu{
+    list-style-type: "\25BC";
+    font-size: x-large;
 }
 
+.yes{
+    list-style-type: "\2705";
+    
+}
+
+.no{
+    list-style-type: "\274C";
+}
+
+.buttonblu{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(59, 136, 224, 0.993);
+    border: none;
+    color: white;
+    height: 30px;
+    
+}
+    
+.buttonverde{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(65, 143, 82, 0.993);
+    border: none;
+    color: white;
+    height: 30px;
+    
+}
+
+.buttonrosa{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(196, 52, 148, 0.993);
+    border: none;
+    color: white;
+    height: 30px;
+    
+}
+
+.buttonara{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(238, 165, 71, 0.993);
+    border: none;
+    color: white;
+    height: 30px;
+    
+}
+
+.buttonverdo{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(150, 192, 83, 0.993);
+    border: none;
+    color: white;
+    height: 30px;
+    
+}
+
+
+
+.buttonviola{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(138, 76, 238, 0.993);
+    border: none;
+    color: white;
+    height: 30px;
+    
+}
+
+section{
+    margin-top: 35px;
+}
